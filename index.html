@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wikipedia Viewer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </head>
+  <body> 
+    <div id="switch" class="before">
+      <div class="container">
+          <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><h2>Click here for a random article</h2></a>
+      </div>
+      <br>
+      <div class="container">
+        <form class="data-fetcher" autocomplete="off">
+          <input type="search" onclick="reset();" name="wiki" placeholder="Search..."/>
+            <button class="button" type="submit">&#128269</button>
+        </form>
+      </div>
+    </div>  
+    <br>
+    <div id="main"></div>
+    <footer id="footer" class="text-center">Ion Gorincioi © 2016. All Rights Reserved :)</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>  
+</html>
